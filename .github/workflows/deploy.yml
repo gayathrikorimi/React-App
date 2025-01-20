@@ -36,7 +36,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin https://$ACTIONS_DEPLOY_KEY@github.com/<username>/<repository>.git
+          git remote set-url origin https://$ACTIONS_DEPLOY_KEY@github.com/gayathrikorimi/React-App.git
           git branch -M gh-pages
           git add -A
           git commit -m "Deploy React App to GitHub Pages"
